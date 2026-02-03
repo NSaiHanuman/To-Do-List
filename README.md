@@ -1,66 +1,84 @@
 # Simple To-Do List
 
-A clean, minimal, and fully responsive **To-Do List** web application built with **HTML**, **CSS**, **Bootstrap 5**, and **Vanilla JavaScript**.
+A clean, modern, and fully responsive **To-Do List** web application built with **HTML**, **CSS**, **Bootstrap 5**, and **Vanilla JavaScript**.
 
-https://user-images.githubusercontent.com/EXAMPLE/00000000-0000-0000-0000-000000000000 (optional: add a screenshot or short demo GIF here)
+The app supports task persistence, dark mode, filtering, and a smooth user experience — all without any build tools or frameworks.
+
+---
 
 ## ✨ Features
 
 - Add new tasks (Enter key or Add button)
-- Mark tasks as completed (with strikethrough & visual feedback)
+- Mark tasks as completed with visual feedback
 - Delete individual tasks
 - Clear all completed tasks with one click
-- Filter tasks: **All** / **Active** / **Completed**
-- Dark / Light mode toggle (persisted via localStorage)
-- Tasks persist across page reloads / browser sessions (localStorage)
-- Responsive design — works great on mobile, tablet, and desktop
-- No build tools, no frameworks, no dependencies beyond Bootstrap CDN
+- Filter tasks: **All / Active / Completed**
+- Dark / Light mode toggle (saved with `localStorage`)
+- Tasks persist across page reloads and browser sessions
+- Responsive design (mobile, tablet, and desktop)
+- Lightweight: no frameworks, no bundlers, no setup required
 
-## 🛠️ Technologies
+---
 
-- **HTML5**
-- **CSS3** (custom dark mode & completion styles)
-- **Bootstrap 5.3** (layout, buttons, cards, form controls)
-- **Vanilla JavaScript (ES6+)** — DOM manipulation, event delegation, localStorage
-- **crypto.randomUUID()** for unique task IDs
+## 🛠️ Technologies Used
+
+- **HTML5** — semantic structure
+- **CSS3** — custom styling, transitions, dark mode
+- **Bootstrap 5.3** — layout, components, responsiveness
+- **Vanilla JavaScript (ES6+)**
+  - DOM manipulation
+  - Event delegation
+  - `localStorage` for persistence
+- **`crypto.randomUUID()`** — unique task identifiers
+
+---
 
 ## 📂 Project Structure
+
 .
-├── index.html      # The complete single-file application
+├── index.html # Complete single-file application
 └── README.md
 
+---
 
 ## ▶️ How to Run
 
-1. Download or clone this repository
-2. Open `index.html` in any modern browser (Chrome, Firefox, Edge, Safari…)
-3. Start adding tasks!
+1. Clone or download this repository
+2. Open `index.html` in any modern browser  
+   (Chrome, Firefox, Edge, Safari, etc.)
+3. Start adding tasks 🎯
 
-No installation or server required.
+No installation, build step, or server required.
 
-## 🎬 Screenshots
+---
 
-*(Add 2–3 screenshots here later — light mode, dark mode, mobile view, filters in action)*
+## 🎬 Screenshots (Optional)
 
-Light mode                     |  Dark mode                     |  Mobile filters
-:-----------------------------:|:------------------------------:|:-----------------------------:
-![Light mode](screenshots/light.png) | ![Dark mode](screenshots/dark.png) | ![Mobile](screenshots/mobile.png)
+_Add screenshots or a short GIF showing:_
+- Light mode
+- Dark mode
+- Filters in action
+- Mobile layout
 
-## 🚀 Future Improvements (Ideas)
+This helps users and recruiters quickly understand the app.
 
-- Double-click to edit task text
-- Drag & drop reordering of tasks
-- Task priority / categories / due dates
-- "Items left" counter (like classic TodoMVC)
+---
+
+## 🚀 Future Improvements
+
+- Edit tasks (double-click or edit icon)
+- Drag & drop task reordering
+- Task priorities or categories
+- Remaining tasks counter
 - Export / Import tasks (JSON)
-- PWA support (offline + installable)
+- PWA support (offline & installable)
 
-## ❤️ Acknowledgments
-
-Inspired by classic TodoMVC examples, but kept deliberately simple and dependency-light.
+---
 
 ## 📄 License
 
-MIT License — feel free to use, modify, and share for personal or educational purposes.
+MIT License — free to use, modify, and share for personal or educational purposes.
 
-Made with ☕ and vanilla JS.
+---
+
+Made with ☕ and **vanilla JavaScript**.
