@@ -1,38 +1,66 @@
-Simple To-Do List App
-A lightweight, responsive To-Do List application built with HTML5, Bootstrap 5, and Vanilla JavaScript. This app allows users to manage their daily tasks efficiently with a clean user interface.
+# Simple To-Do List
 
-🚀 Features
-Add Tasks: Quickly add new tasks via the input field or by pressing the Enter key.
+A clean, minimal, and fully responsive **To-Do List** web application built with **HTML**, **CSS**, **Bootstrap 5**, and **Vanilla JavaScript**.
 
-Mark as Complete: Use checkboxes to strike through completed items.
+https://user-images.githubusercontent.com/EXAMPLE/00000000-0000-0000-0000-000000000000 (optional: add a screenshot or short demo GIF here)
 
-Delete Individual Tasks: Remove specific tasks using the "Delete" button.
+## ✨ Features
 
-Clear All Completed: A bulk action to remove all finished tasks at once.
+- Add new tasks (Enter key or Add button)
+- Mark tasks as completed (with strikethrough & visual feedback)
+- Delete individual tasks
+- Clear all completed tasks with one click
+- Filter tasks: **All** / **Active** / **Completed**
+- Dark / Light mode toggle (persisted via localStorage)
+- Tasks persist across page reloads / browser sessions (localStorage)
+- Responsive design — works great on mobile, tablet, and desktop
+- No build tools, no frameworks, no dependencies beyond Bootstrap CDN
 
-Responsive Design: Built with Bootstrap to ensure it looks great on desktops, tablets, and mobile devices.
+## 🛠️ Technologies
 
-🛠️ Technologies Used
-HTML5: Structure of the application.
+- **HTML5**
+- **CSS3** (custom dark mode & completion styles)
+- **Bootstrap 5.3** (layout, buttons, cards, form controls)
+- **Vanilla JavaScript (ES6+)** — DOM manipulation, event delegation, localStorage
+- **crypto.randomUUID()** for unique task IDs
 
-CSS3 (Custom & Bootstrap 5): Styling and responsive layout.
+## 📂 Project Structure
+.
+├── index.html      # The complete single-file application
+└── README.md
 
-JavaScript (ES6+): DOM manipulation, event listeners, and application logic.
 
-📂 How to Use
-Clone or Download the repository.
+## ▶️ How to Run
 
-Open the index.html file in any modern web browser.
+1. Download or clone this repository
+2. Open `index.html` in any modern browser (Chrome, Firefox, Edge, Safari…)
+3. Start adding tasks!
 
-Type a task in the input field and click "Add" or press Enter.
+No installation or server required.
 
-Click the Checkbox to mark a task as done.
+## 🎬 Screenshots
 
-Click "Delete" to remove a single task, or "Clear Completed" to tidy up your entire list.
+*(Add 2–3 screenshots here later — light mode, dark mode, mobile view, filters in action)*
 
-📝 Code Overview
-Event Delegation: The app uses a single event listener on the <ul> element to handle both deletions and completions, making the code more efficient.
+Light mode                     |  Dark mode                     |  Mobile filters
+:-----------------------------:|:------------------------------:|:-----------------------------:
+![Light mode](screenshots/light.png) | ![Dark mode](screenshots/dark.png) | ![Mobile](screenshots/mobile.png)
 
-Dynamic UI: Tasks are prepended to the list, ensuring the newest items appear at the top.
+## 🚀 Future Improvements (Ideas)
 
-Bootstrap Integration: Utilizes Bootstrap’s card and list-group components for a modern look without heavy custom CSS.
+- Double-click to edit task text
+- Drag & drop reordering of tasks
+- Task priority / categories / due dates
+- "Items left" counter (like classic TodoMVC)
+- Export / Import tasks (JSON)
+- PWA support (offline + installable)
+
+## ❤️ Acknowledgments
+
+Inspired by classic TodoMVC examples, but kept deliberately simple and dependency-light.
+
+## 📄 License
+
+MIT License — feel free to use, modify, and share for personal or educational purposes.
+
+Made with ☕ and vanilla JS.
